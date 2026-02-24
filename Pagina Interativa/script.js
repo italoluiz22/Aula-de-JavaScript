@@ -5,7 +5,8 @@ let mensagem = document.getElementById("mensagem");
 
 
 
-verde.addEventListener("click", function() {
+verde.addEventListener("click",
+     function() {
     document.body.style.backgroundColor = "green";
 });
 
