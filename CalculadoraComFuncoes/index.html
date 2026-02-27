@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <h2>Calculadora</h2>
+
+    Número 1:<br>
+    <input type="number" id="n1"><br><br>
+
+    Número 2:<br>
+    <input type="number" id="n2"><br><br>
+
+    Operação:<br>
+    <select id="op">
+        <option value="+">Soma</option>
+        <option value="-">Subtração</option>
+        <option value="*">Multiplicação</option>
+        <option value="/">Divisão</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="calcular()">Calcular</button>
+    <button onclick="limpar()">Limpar</button>
+
+    <h3 id="resultado"></h3>
+
+    <h4>Histórico:</h4>
+    <p id="historico"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
