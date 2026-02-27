@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Compras</title>
+</head>
+<body>
+
+    <h2>Lista de Compras</h2>
+
+    Item:
+    <input type="text" id="item">
+    <button onclick="adicionar()">Adicionar</button>
+
+    <br><br>
+
+    Remover pelo nome:
+    <input type="text" id="remover">
+    <button onclick="removerItem()">Remover</button>
+
+    <br><br>
+
+    Buscar por nome:
+    <input type="text" id="buscarNome">
+    <button onclick="buscarNome()">Buscar</button>
+
+    <br><br>
+
+    Buscar por posição:
+    <input type="number" id="buscarPos">
+    <button onclick="buscarPos()">Buscar</button>
+
+    <p id="msg"></p>
+
+    <h3>Itens:</h3>
+    <p id="lista"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
