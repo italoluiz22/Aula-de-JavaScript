@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Usuários</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Cadastro de Usuários</h2>
+
+<input type="hidden" id="id">
+
+<input type="text" id="nome" placeholder="Nome">
+<input type="email" id="email" placeholder="Email">
+
+<button onclick="salvar()">Salvar</button>
+
+<h3>Lista de Usuários</h3>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+<th>Email</th>
+<th>Ações</th>
+</tr>
+</thead>
+
+<tbody id="lista"></tbody>
+
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
